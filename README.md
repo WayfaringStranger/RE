@@ -18,3 +18,12 @@
 * start(): Return the starting position of the match.
 * end(): Return the ending position of the match.
 * span(): Return a tuple containing the (start, end) positions of the match.
+
+#### Quantifier:
+```
+* : 0 or more
++ : 1 or more
+? : 0 or 1, -> optional character
+{4} : exact numbers
+{4, 6} : range numbers (min, max)
+```
